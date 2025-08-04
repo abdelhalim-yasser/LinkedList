@@ -14,9 +14,9 @@ This project implements a **singly linked list** in Java that stores integers on
 ## ✅ Features
 
 ### 🔁 Insertion
-- addFirst(int data) - Add a node at the beginning.
-- add(int data) - Add a node at the end.
-- addIndex(int data, int index) - Add a node at a specific index.
+- `addFirst(int data)` - Add a node at the beginning.
+- `add(int data)` - Add a node at the end.
+- `addIndex(int data, int index)` - Add a node at a specific index.
 ## 🚀 Example Usage
 
 ```java
@@ -31,11 +31,11 @@ list.printList(); // Output: [0] 10 -> [1] 20 -> [2] 30
 --- 
 
 ### ❌ Deletion
-- deleteFirst() - Remove and return the first element.
-- delete() - Remove and return the last element.
-- deleteIndex(int index) - Remove an element at a specific index.
-- deleteData(int data) - Remove the first node with the given value.
-- deleteList() - Delete the entire list.
+- `deleteFirst()` - Remove and return the first element.
+- `delete()` - Remove and return the last element.
+- `deleteIndex(int index)` - Remove an element at a specific index.
+- `deleteData(int data)` - Remove the first node with the given value.
+- `deleteList()` - Delete the entire list.
 ## 🚀 Example Usage
 
 ```java
@@ -59,9 +59,9 @@ list.printList();     // Output: The list is empty.
 --- 
 
 ### 🔍 Search
-- isFound(int data) - Check if a value exists.
-- getIndex(int data) - Return the index of a given value.
-- getElement(int index) - Get the value at a specific index.
+- `isFound(int data)` - Check if a value exists.
+- `getIndex(int data)` - Return the index of a given value.
+- `getElement(int index)` - Get the value at a specific index.
 ## 🚀 Example Usage
 
 ```java
@@ -79,11 +79,11 @@ System.out.println(list.getElement(0)); // 100
 --- 
 
 ### 📊 Stats
-- countList() - Return the number of elements.
-- sumNums() - Return the sum of all elements.
-- averageNums() - Return the average of all elements.
-- maxList()  - Return the Max.
-- minList() - Return the Min.
+- `countList()` - Return the number of elements.
+- `sumNums()` - Return the sum of all elements.
+- `averageNums()` - Return the average of all elements.
+- `maxList()`  - Return the Max.
+- `minList()` - Return the Min.
 ## 🚀 Example Usage
 
 ```java
@@ -103,11 +103,11 @@ System.out.println(list.minList());     // 5
 --- 
 
 ### 📚 Utility
-- printList() - Print all elements with their index.
-- removeDuplicates() - Remove duplicate elements.
-- reverse() - Reverse the list.
-- sort() - Sort the list in ascending order.
-- swap(int data1, int data2) - Swap two nodes by value.
+- `printList()` - Print all elements with their index.
+- `removeDuplicates()` - Remove duplicate elements.
+- `reverse()` - Reverse the list.
+- `sort()` - Sort the list in ascending order.
+- `swap(int data1, int data2)` - Swap two nodes by value.
 ## 🚀 Example Usage
 
 ```java
@@ -135,9 +135,9 @@ list.printList();         // [0] 3 -> [1] 2 -> [2] 1
 ---
 
 ### 🧪 Extra Operations
-- clone() - Return a deep copy of the list.
-- equals(linkedList list) - Compare this list with another.
-- concat(linkedList list) - Append another list to the current one.
+- `clone()` - Return a deep copy of the list.
+- `equals(linkedList list)` - Compare this list with another.
+- `concat(linkedList list)` - Append another list to the current one.
 ## 🚀 Example Usage
 
 ```java
@@ -159,8 +159,8 @@ list1.printList(); // [0] 1 -> [1] 2 -> [2] 3 -> [3] 4
 ---
 
 ### 🔁 Conversion
-- toArray() - Convert the list to an integer array.
-- fromArray(int[] array) - Create a new list from an integer array.
+- `toArray()` - Convert the list to an integer array.
+- `fromArray(int[] array)` - Create a new list from an integer array.
 ## 🚀 Example Usage
 
 ```java
@@ -179,11 +179,11 @@ System.out.println(Arrays.toString(arr)); // [10, 20, 30, 40]
 
 ## 🧱 Algorithm Steps
 
-1. Create a Node class.
-2. Define LinkedList with a Node head and int size.
-3. Implement the required operations using basic linked list logic.
-4. Handle edge cases (empty list, invalid positions, etc.).
-5. Add extra methods like clone(), equals(), concat(), etc..
+1. Create a `Node` class.
+2. Define `LinkedList` with a `Node head` and `int size`.
+3. Implement the required operations using `basic linked list` logic.
+4. Handle edge cases (empty list, invalid positions, etc..`).
+5. Add extra methods like `clone()`, `equals()`, `concat()`, `etc..`
 
 ---
 
@@ -197,15 +197,15 @@ System.out.println(Arrays.toString(arr)); // [10, 20, 30, 40]
 ## 🧾 Notes
 
 - This implementation uses a **singly linked list**.
-- It just deals with INTEGERS not GENERICS.  *It will be updated soon.*
-- You can copy this into any Java project and start using it.
+- It just deals with `INTEGERS` not `GENERICS`.  *It will be updated soon.*
+- You can copy this into any `Java project` and start using it.
 - It's well suited for learning and educational demos.
 
 ---
 
 ## 🔐 License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute it.
+This project is licensed under the `MIT` License. You are free to use, modify, and distribute it.
 
 ---
 
