@@ -19,13 +19,14 @@ This project implements a **singly linked list** in Java that stores integers on
 - addIndex(int data, int index) - Add a node at a specific index.
 ## 🚀 Example Usage
 
-java
+```java
 linkedList list = new linkedList();
 
 list.addFirst(10);
 list.add(30);
 list.addIndex(20, 1);
 list.printList(); // Output: [0] 10 -> [1] 20 -> [2] 30
+```
 
 --- 
 
@@ -37,7 +38,7 @@ list.printList(); // Output: [0] 10 -> [1] 20 -> [2] 30
 - deleteList() - Delete the entire list.
 ## 🚀 Example Usage
 
-java
+```java
 linkedList list = new linkedList();
 
 list.add(10);
@@ -53,6 +54,7 @@ list.deleteFirst();     // Removes first element (10)
 
 list.deleteList();     // Deletes the entire list (now it's empty)
 list.printList();     // Output: The list is empty.
+```
 
 --- 
 
@@ -62,7 +64,7 @@ list.printList();     // Output: The list is empty.
 - getElement(int index) - Get the value at a specific index.
 ## 🚀 Example Usage
 
-java
+```java
 linkedList list = new linkedList();
 
 list.add(100);
@@ -72,6 +74,7 @@ list.add(300);
 System.out.println(list.isFound(200));  // true
 System.out.println(list.getIndex(300)); // 2
 System.out.println(list.getElement(0)); // 100
+```
 
 --- 
 
@@ -79,10 +82,11 @@ System.out.println(list.getElement(0)); // 100
 - countList() - Return the number of elements.
 - sumNums() - Return the sum of all elements.
 - averageNums() - Return the average of all elements.
-- maxList() / minList() - Return the max or min value.
+- maxList()  - Return the Max.
+- minList() - Return the Min.
 ## 🚀 Example Usage
 
-java
+```java
 linkedList list = new linkedList();
 
 list.add(5);
@@ -94,6 +98,7 @@ System.out.println(list.sumNums());     // 45
 System.out.println(list.averageNums()); // 15.0
 System.out.println(list.maxList());     // 25
 System.out.println(list.minList());     // 5
+```
 
 --- 
 
@@ -105,7 +110,7 @@ System.out.println(list.minList());     // 5
 - swap(int data1, int data2) - Swap two nodes by value.
 ## 🚀 Example Usage
 
-java
+```java
 linkedList list = new linkedList();
 
 list.add(3);
@@ -125,6 +130,7 @@ list.printList();         // [0] 1 -> [1] 2 -> [2] 3
 
 list.swap(1, 3);
 list.printList();         // [0] 3 -> [1] 2 -> [2] 1
+```
 
 ---
 
@@ -134,7 +140,7 @@ list.printList();         // [0] 3 -> [1] 2 -> [2] 1
 - concat(linkedList list) - Append another list to the current one.
 ## 🚀 Example Usage
 
-java
+```java
 linkedList list = new linkedList();
 list1.add(1);
 list1.add(2);
@@ -148,6 +154,7 @@ list3.add(4);
 
 list1.concat(list3);                            // join list3 to list1
 list1.printList(); // [0] 1 -> [1] 2 -> [2] 3 -> [3] 4
+```
 
 ---
 
@@ -156,7 +163,7 @@ list1.printList(); // [0] 1 -> [1] 2 -> [2] 3 -> [3] 4
 - fromArray(int[] array) - Create a new list from an integer array.
 ## 🚀 Example Usage
 
-java
+```java
 linkedList list = new linkedList();
 
 int[] nums = {10, 20, 30, 40};
@@ -166,6 +173,7 @@ list.printList();            // [0] 10 -> [1] 20 -> [2] 30 -> [3] 40
 
 int[] arr = list.toArray();  // convert to array
 System.out.println(Arrays.toString(arr)); // [10, 20, 30, 40]
+```
 
 ---
 
