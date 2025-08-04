@@ -1,3 +1,5 @@
+import mypackage;
+
 public class Node {       //define the node
 	int data;
 	Node next;
@@ -9,7 +11,7 @@ public class Node {       //define the node
 }
 
 
-public class linkedList {
+public class LinkedList {
 	Node head;
 
 	public void addFirst(int data) {                      // add the object in the first index
