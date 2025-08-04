@@ -3,7 +3,7 @@ import mypackage.LinkedList;
 public class Main
 {
 	public static void main(String[] args) {
-		linkedList list = new linkedList();
+		LinkedList list = new LinkedList();
 
 		System.out.println("====== Adding Elements ======");
 		list.add(10);
