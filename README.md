@@ -1,2 +1,1 @@
-# LinkedList
-The implementation of the linked list in Data Structures using C and Java
+# You can check the Linked List implementation in c and java
